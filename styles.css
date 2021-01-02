@@ -1,0 +1,309 @@
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.home {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.about {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+
+}
+.register {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+
+}
+.contact {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+
+}
+.home:hover{
+	opacity: 0.7;
+}
+.about:hover{
+	opacity:0.7;
+}
+.login:hover{
+	opacity:0.7;
+}
+.register:hover{
+	opacity:0.7;
+}
+.about {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.about:hover{
+	opacity: 0.7;
+}
+.register {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.register:hover{
+	opacity: 0.7;
+}
+.login {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.login:hover{
+	opacity: 0.7;
+}
+.contact {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.contact:hover{
+	opacity: 0.7;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  
+  background: #3B5998;
+  color: white;
+}
+.glow {
+	text-shadow: 2px 2px white;
+	background-color: black;
+    color: white;	
+  font-family: fantasy;
+  font-size: 80px;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px ivory, 0 0 20px ghostwhite, 0 0 30px gray, 0 0 40px lightpink, 0 0 50px lightyellow, 0 0 60px lightcoral, 0 0 70px lightyellow;
+  }
+  to {
+    text-shadow: 0 0 20px mintcream, 0 0 30px seashell, 0 0 40px snow, 0 0 50px silver, 0 0 60px gold, 0 0 70px gold, 0 0 80px gold;
+  }
+}
+
+/* Twitter */
+.fa-twitter 
+{  background: #55ACEE;
+  color: white;
+}
+.fa-instagram
+{
+  background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+color:white;
+
+  }
+  .fa-youtube{
+  	background-color: red;
+  	color:white;
+  }
+  input[type=text] ,input[type=password]{
+  width: 75%;
+  height: 5%;
+  padding: 10px 10px;
+  margin: 8px 0;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.loginbox{
+	width : 350px;
+	height :500px;
+	background:black;
+	color :black;
+	top:50%;
+	left: 50%;
+	align-content: center;
+	alignment-baseline:  center;
+	position: absolute;
+	transform:translate(10px,-75px);
+	box-sizing: border-box;
+	box-shadow: 5px 10px red;
+}
+.registerbox{
+    width : 450px;
+	height :800px;
+	background:black;
+	color :black;
+	top:50%;
+	left: 50%;
+	align-content: center;
+	alignment-baseline:  center;
+	position: absolute;
+	transform-translate: -50px;
+	box-sizing: border-box;	
+	transform: translate(25px,-100px);
+	box-shadow: 5px 10px red;
+}
+.avatar{
+	border-radius: 50%;
+	top:-50px;
+	transform-translate: -50px;
+	position: absolute;
+	align-items: center;
+	left:calc(50% - 50px);
+}
+.teja-box{
+	width : 450px;
+	height :1000px;
+	background:black;
+	color :black;
+	top: 50%;
+	left: 50%;
+	align-content: center;
+	alignment-baseline:  center;
+	transform:translate(0px,0px);
+	box-sizing: border-box;	
+	padding:100px 100px;
+	  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.teja-box:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.teja-image{
+	border-radius: 50%;
+	right:-50px;
+	transform-translate: -100px;
+	align-items: right;
+	right:calc(50% - 50px);
+	 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.mahi-box{
+	width : 450px;
+	height :1000px;
+	background:black;
+	color :black;
+	top: 50%;
+	left: 50%;
+	align-content: center;
+	alignment-baseline:  center;
+	
+	box-sizing: border-box;	
+	padding: 100px 100px;
+	 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.mahi-box:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.mahi-image{
+	border-radius: 50%;
+	right:-50px;
+	transform-translate: -100px;
+	align-items: right;
+	left:calc(50% - 50px);
+	 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.mahi-box:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.varshi-box{
+	width : 450px;
+	height :1000px;
+	background:black;
+	color :black;
+	top: 50%;
+	left: 50%;
+	align-content: center;
+	alignment-baseline:  center;
+	box-sizing: border-box;	
+	padding: 100px 100px;
+	 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.varshi-image{
+	border-radius: 50%;
+	right:-50px;
+	transform-translate: -100px;
+	align-items: right;
+	left:calc(50% - 50px);
+	 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.varshi-box:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 10px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.column:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.footer {
+	position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  transform: translate(0px,700px);
+}
